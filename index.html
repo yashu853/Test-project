@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School Attendance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top-bar">
+      <label><strong>Select a Date:</strong></label>
+      <input type="date" id="date">
+      <button id="searchBtn">Search</button>
+      <button id="fetchBtn">Fetch Attendance report</button>
+    </div>
+
+    <form id="attendanceForm"></form>
+    <button id="submitBtn">Mark Attendance</button>
+
+    <div id="reportView" style="display: none;"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

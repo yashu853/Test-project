@@ -1,0 +1,117 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.top-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-bar label {
+  font-weight: bold; /* Make "Select a Date:" bold */
+}
+
+#attendanceForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.student-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.student-row span {
+  width: 120px;
+  font-weight: bold;
+}
+
+.student-row label {
+  margin-right: 15px;
+  color: #000;
+}
+
+/* Button Styles */
+button {
+  padding: 8px 14px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.top-bar button:nth-child(3) {
+  background-color: rgb(13, 13, 143) (58.17% 17.79 63.4); /* Mark Attendance (Search button) */
+}
+
+.top-bar button:nth-child(4) {
+  background-color: green; /* Fetch Attendance Report */
+}
+
+#submitBtn {
+  background-color: orange; /* Submit Button */
+  margin-top: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.status-icon {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.present {
+  color: green;
+}
+
+.absent {
+  color: red;
+}
+
+#reportView {
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+label {
+  font-weight: bold;
+}
+
+#submitBtn {
+  background-color: orange;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.top-bar button:nth-child(3) {
+  background-color: green;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
